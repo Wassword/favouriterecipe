@@ -1,53 +1,68 @@
 
+/*basic reset for padding and margin */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
 /* Base styling for the body */
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #d68ab0;
+    background-color: #e7e1e4;
     color: #333;
     line-height: 1.6;
     margin: 0;
     padding: 20px;
     line-height: 1.6em;
+    text-align: center;
+    border: beige;
 }
+/* Main Header style on the top*/
 
-/* Header styles */
-
-h1{
-    color: #ff6600;
+header {
+    font-family: 'Times New Roman', Times, serif;    
     font-size: 2.5em;
+    color: rgb(241, 155, 94);
     margin-top: 0;
+    line-height: normal;
+    
 
 }
 
 /* Secondary header styles */
 
-#header1 {
-    color: #744a2e;
+#header1 
+{
+    color: #0e0e0d;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 #header2 {
+
    color: #744a2e;
    font-size: 2.5em;
    margin-top: 20px;
    border: 5;
    height: 5px;
-   background: #e7a1a1; 
+   background: #e7c7c7; 
 
 }
 
 /* Image styles */
 img {
-    max-width: 100%;
-    height: auto;
+    max-width: 60%;
+    height:fit-content;
     display: block;
     margin: 20px 0;
+    border: #0e0e0d;
 
 }
-/* List styles */
+/* List style on Homepage */
 ol, ul {
-    background: #efb7b7;
+    background: #f5c6c6;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+    box-shadow: 10px
 
 }
 li {
@@ -85,7 +100,6 @@ main {
     align-items: center;
 
 }
-
 /* Example content layout using Flexbox */
 .content {
     display: flex;
@@ -93,5 +107,22 @@ main {
     align-items: center;
     max-width: 800px;
     width: 100%;
+}
+/* Navigation button styles */
+.nav-button {
+    margin-top: 20px;
+}
+
+.nav-button a {
+    text-decoration: solid;
+    color: #e7e1e4;
+    background-color:#3d0101;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+
+}
+.nav-button a:hover {
+    background-color: crimson;
 
 }
