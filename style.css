@@ -1,0 +1,97 @@
+
+/* Base styling for the body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d68ab0;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6em;
+}
+
+/* Header styles */
+
+h1{
+    color: #ff6600;
+    font-size: 2.5em;
+    margin-top: 0;
+
+}
+
+/* Secondary header styles */
+
+#header1 {
+    color: #744a2e;
+}
+#header2 {
+   color: #744a2e;
+   font-size: 2.5em;
+   margin-top: 20px;
+   border: 5;
+   height: 5px;
+   background: #e7a1a1; 
+
+}
+
+/* Image styles */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+
+}
+/* List styles */
+ol, ul {
+    background: #efb7b7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+
+}
+li {
+    margin-bottom: 10px;
+}
+
+/*Navigation styles */
+nav a {
+    text-decoration: underline;
+}
+
+/* Additonal styles */
+.definition {
+    color: #080253;
+}
+
+/* Flexbox layout */
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+header, footer {
+    background-color: #3d0101;
+    color: #f8f8f8;
+    padding: 10px;
+    text-align: center;
+
+}
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* Example content layout using Flexbox */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    width: 100%;
+
+}
