@@ -136,3 +136,45 @@ main {
     background-color: crimson;
 
 }
+/* Form Container styles */
+.form-container {
+    background-color: #f5c6c6;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: left;
+   
+}
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+
+}
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 1em;
+
+}
+button {
+    padding: 10px 15px;
+    color: white;
+    background-color: darkred;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+
+}
+button:hover {
+    background-color: crimson;
+}
