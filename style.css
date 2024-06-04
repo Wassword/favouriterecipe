@@ -99,11 +99,12 @@ form {
 
 /* Image styles */
 img {
-    max-width: 60%;
+    max-width: 40%;
     height:fit-content;
     display: block;
     margin: 20px 0;
     border: #0e0e0d;
+    
 
 }
 /* List style on Homepage */
