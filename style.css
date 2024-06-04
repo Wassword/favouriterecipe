@@ -13,10 +13,12 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 20px;
+
+
     line-height: 1.6em;
     text-align: center;
     border: beige;
-    background-image: url("C:\Users\admin\favouriterecipe\favouriterecipe\images\Egg-Fried-Rice-Recipe.jpg") no-repeat center fixed;
+    ;
 }
 /* Main Header style on the top*/
 
@@ -29,6 +31,46 @@ header {
     
 
 }
+/* Navigation styles using Flexbox (home,ingredients and directions) */
+.nav-container {
+    display: flex;
+    justify-content: center;
+    background-color: #3d0101;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+}
+.nav-container a {
+    color: wheat;
+    padding: 10px; 20px
+    margin: 0 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: dark
+    
+}
+.nav-container a:hover {
+    background-color: crimson;
+}
+/*Form Container Style */
+.form-container {
+    background-color: #f5c6c6 ;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+    max-width: 500px;
+    width: 100%;
+    text-align: left;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
 
 /* Secondary header styles */
 
@@ -126,19 +168,19 @@ main {
 .nav-button a {
     text-decoration: solid;
     color: #e7e1e4;
-    background-color:#e54d4d;
+    background-color:#c68a8a;
     padding: 10px 20px;
     border-radius: 5px;
     display: inline-block;
 
 }
 .nav-button a:hover {
-    background-color: crimson;
+    background-color: rgb(202, 172, 178);
 
 }
 /* Form Container styles */
 .form-container {
-    background-color: #f5c6c6;
+    background-color: #eab8b8;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(red, green, blue, alpha);
@@ -151,6 +193,12 @@ main {
 form {
     display: flex;
     flex-direction: column;
+    background-color: ;
+    color: #995b5b;
+}
+label{
+    margin-bottom: 5px;
+    font-weight: bold;
 }
 
 .form-group {
@@ -176,5 +224,47 @@ button {
 
 }
 button:hover {
-    background-color: crimson;
+    background-color: rgb(220, 175, 184);
 }
+/*Table styles*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+}
+
+table thead {
+    background-color: #e9bfbf;
+    color: black;
+
+}
+
+table th, table td {
+    padding: 12px 15px;
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+table tbody tr: :nth-child(even) {
+    background-color: #f5c6c6
+
+}
+/*Navigation Link distinct styles*/
+.nav-link {
+    background-color: rgb(15, 15, 20);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: solid;
+    margin: 0 5px;
+
+}
+.nav-buttons a{ color: black;}
+.nav-link:hover {
+    background-color: navy;
+}
+ @media (max-width:600px) {
+    .nav-container { flex-direction: column;}
+ }
